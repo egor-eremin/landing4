@@ -1,0 +1,8 @@
+section.section.section-licenses
+	.wrapper
+		.licenses-list
+			-for(let i = 1; i < 9; i++)
+				.licenses-list__item(data-aos="fade-up" data-aos-delay="300")
+					.licenses-icon(class="licenses-icon_" + i)
+					h3.licenses-list__title.h2-title !{licensesListText["license"+i].title[lang]}
+					p.licenses-list__text !{licensesListText["license"+i].text[lang]}

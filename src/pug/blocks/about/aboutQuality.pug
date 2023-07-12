@@ -1,0 +1,10 @@
+section.section.section-quality
+	.wrapper.wrapper_quality(data-aos="fade-up" data-aos-delay="300")
+		.quality-text-wrapper
+			h2.section-quality__title.h2-title !{aboutQualityText.title[lang]}
+			p.section-quality__text !{aboutQualityText.text[lang]}
+			a(href="financial-instruments.html").btn.btn-48-height.btn-rectangle !{buttonText.btnLearMore[lang]}
+		.quality-img-wrapper
+			picture
+				source(srcset=baseDir + "assets/images/quality_1x.webp 1x, " + baseDir + "assets/images/quality_2x.webp 2x" type="image/webp")
+				img(src=baseDir + "assets/images/quality_1x.png" srcset=baseDir + "assets/images/quality_1x.png 1x, " + baseDir + "assets/images/quality_2x.png 2x" alt="quality")

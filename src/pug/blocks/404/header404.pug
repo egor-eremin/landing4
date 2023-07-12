@@ -1,0 +1,14 @@
+header.page-header.page-header_only-header
+	.header-decor-wrapper.wrapper.wrapper-small
+		.big-header-decor.left
+		.big-header-decor.right
+	include ../nav.pug
+	.wrapper.wrapper-header.wrapper-header_revers.wrapper-header__other-page.wrapper-small
+		.header-information-wrapper.header-information-wrapper_404
+			.error-404 404
+		.text-header-wrapper.text-header-wrapper_404
+			h1.page-header__title_404.page-header__title.h1-title !{headerText404.title[lang]}
+			//p.page-header__text.page-header__text-404 !{headerText404.text[lang]}
+			.header-404__buttons
+				a(href="contacts.html").btn.btn-404.btn-start-trade !{headerText404.textSupport[lang]}
+				a(href="index.html").btn-go-page-main !{headerText404.textMainPage[lang]}

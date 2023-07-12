@@ -1,0 +1,176 @@
+@import "../../../node_modules/normalize.css/normalize";
+@import "partials/fonts";
+@import "partials/functions";
+@import "partials/variables";
+@import "partials/aos";
+@import "partials/slick";
+@import "partials/calculator";
+
+@import "blocks/common";
+@import "blocks/nav";
+@import "blocks/footer";
+@import "blocks/index/indexAccounts";
+@import "blocks/index/indexSteps";
+@import "blocks/trading/tradingHeader";
+
+
+
+.steps-trade {
+  .section-steps {
+    padding-top: rem(98px);
+    padding-bottom: rem(98px);
+  }
+  .decor-small.left {
+    display: none;
+  }
+}
+.section-calculators {
+  position: relative;
+  padding-top: 0;
+}
+.calculator-wrapper {
+  position: relative;
+}
+.section-calculators__text {
+  margin-bottom: rem(32px);
+}
+.wrapper-calculators {
+  position: relative;
+}
+.section-estimation {
+  padding-bottom: 0;
+  position: relative;
+  z-index: 1;
+  padding-top: rem(122px);
+}
+.section-estimation__title {
+  text-align: left;
+  margin-bottom: rem(16px);
+}
+.estimation-prev-text {
+  margin-bottom: rem(32px);
+  display: none;
+}
+.clc-table-estimation {
+  margin-bottom: rem(21px);
+}
+.estimation__title {
+  font-size: rem(16px);
+  line-height: rem(22px);
+  margin-bottom: rem(10px);
+}
+.estimation-list__item {
+  font-size: rem(18px);
+  line-height: rem(24px);
+  margin-bottom: rem(10px);
+  position: relative;
+  display: inline;
+  color: #283964;
+  padding-left: rem(25px);
+  &::before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: rem(8px);
+    width: rem(8px);
+    height: rem(8px);
+    border-radius: 50%;
+    background: #283964;
+  }
+  &:last-child {
+    margin-bottom: 0;
+  }
+  .description {
+    display: inline;
+    color: $color-text;
+  }
+}
+.right-blue-decor_estimation {
+  top: -381px;
+  left: rem(910px);
+}
+.wrapper-estimation {
+  &::before {
+    left: rem(-199px);
+    top: rem(-73px);
+  }
+}
+.estimation {
+  margin-top: rem(29px);
+}
+.estimation-list {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.accounts-trade {
+  position: relative;
+  .gif-decor {
+    display: none;
+  }
+  .section-accounts {
+    padding-top: rem(110px);
+  }
+}
+.calc-wrapper {
+  border-radius: rem(184px) rem(20px);
+  background: url("../images/calc-bg.jpg") no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  padding: rem(78px) rem(164px) rem(52px);
+}
+.section-calculators__title {
+  text-align: left;
+  margin-bottom: rem(16px);
+}
+
+@media (max-width: 1024px) {
+  .clc-radioBox__label::after {
+    top: rem(1px);
+  }
+  .calculator-wrapper {
+    &::before,
+    &::after {
+      display: none;
+    }
+  }
+  .section-calculators {
+    padding-bottom: 0 !important;
+  }
+  .section-calculators {
+    padding-top: 0 !important;
+  }
+  .calc-wrapper {
+    border-radius: rem(100px) rem(20px);
+    padding: rem(40px) rem(60px);
+  }
+  .steps-trade .section-steps {
+    padding-bottom: rem(80px);
+  }
+}
+@media (max-width: 767px) {
+  .clc-buttonsCta__btn {
+    max-width: rem(400px);
+    &:first-child {
+      margin-right: 0;
+      margin-bottom: rem(24px);
+    }
+  }
+}
+@media (max-width: 640px) {
+  .wrapper-calculators {
+    background: url("../images/calc-bg.jpg") no-repeat;
+    background-size: cover;
+  }
+  .calc-wrapper {
+    background: transparent;
+    border-radius: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+@media (max-width: 480px) {
+  .clc-radioBox__label::after {
+    top: rem(1px);
+  }
+}

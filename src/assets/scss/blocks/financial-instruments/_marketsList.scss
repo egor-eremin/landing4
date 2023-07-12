@@ -1,0 +1,119 @@
+.section-markets {
+    position: relative;
+    padding: rem(134px) 0;
+    .main-decor {
+        z-index: -1;
+    }
+    .account-decor_bc {
+        top: 8% !important;
+        right: 47px !important;
+        left: auto !important;
+    }
+    .account-decor_tl {
+        top: auto !important;
+        bottom: 8% !important;
+        left: 10% !important;
+    }
+    .advantages-decor_tl {
+        left: 3%!important;
+        top: 11%!important;
+    }
+    .advantages-decor_cc {
+        left: auto!important;
+        top: auto !important;
+        bottom: -3% !important;
+        right: 5% !important;
+        opacity: .8;
+    }
+}
+
+.markets-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: rem(64px);
+}
+
+.markets-list__item {
+    padding: rem(48px) rem(32px);
+    color: white;
+    box-shadow: 10px 10px 70px rgba(0, 0, 0, 0.15);
+    border-radius: rem(20px);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &.markets-list__item3,
+    &.markets-list__item6 {
+        grid-column: span 2;
+        background: url(../images/markets-list__item-big.svg), $bg-color;
+        background-position: bottom right;
+        background-repeat: no-repeat;
+    }
+    &.markets-list__item1,
+    &.markets-list__item5 {
+        background: url(../images/markets-list__item.svg), $second-color;
+        background-position: bottom right;
+        background-repeat: no-repeat;
+    }
+    &.markets-list__item2,
+    &.markets-list__item4 {
+        background: url(../images/markets-list__item.svg), $main-color;
+        background-position: bottom right;
+        background-repeat: no-repeat;
+    }
+}
+
+.markets-list__btns {
+    margin-top: auto;
+    .btn-white {
+        margin-right: rem(32px);
+    }
+}
+
+.markets-list__img {}
+
+.markets-list__title {
+    color: white;
+    margin-bottom: 16px;
+}
+
+.markets-list__text {
+    margin-bottom: rem(56px);
+    max-width: rem(710px);
+}
+
+// ADAPTIVE
+@media screen and (max-width: 1280px) {}
+
+@media screen and (max-width: 1023px) {
+    .section-markets {
+        padding: rem(64px) 0 rem(40px);
+    }
+    .markets-list {
+        grid-gap: rem(24px);
+    }
+    .markets-list__btns {
+        margin-top: auto;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .markets-list {
+        display: block;
+    }
+    .markets-list__item {
+        margin-bottom: rem(24px);
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .markets-list__btns {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        .btn-white {
+            margin: 0 0 rem(24px);
+            width: 100%;
+        }
+    }
+}

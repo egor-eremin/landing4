@@ -1,0 +1,82 @@
+@import "../../../node_modules/normalize.css/normalize";
+@import "partials/fonts";
+@import "partials/functions";
+@import "partials/variables";
+@import "partials/aos";
+
+
+@import "blocks/common";
+@import "blocks/nav";
+@import "blocks/footer";
+
+.licenses-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: rem(40px) rem(44px);
+}
+.licenses-list__title {
+  text-align: left;
+  margin-bottom: rem(8px);
+}
+.licenses-list__text {
+  font-size: rem(15px);
+  line-height: rem(24px);
+  color: #333333;
+}
+.section-licenses {
+  padding-bottom: rem(96px);
+}
+.licenses-icon {
+  width: rem(80px);
+  height: rem(80px);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-bottom: rem(16px);
+}
+.licenses-icon_1 {
+  background-image: url("../images/licenses-icon-1.png");
+}
+.licenses-icon_2 {
+  background-image: url("../images/licenses-icon-2.png");
+}
+.licenses-icon_3 {
+  background-image: url("../images/licenses-icon-3.png");
+}
+.licenses-icon_4 {
+  background-image: url("../images/licenses-icon-4.png");
+}
+.licenses-icon_5 {
+  background-image: url("../images/licenses-icon-5.png");
+}
+.licenses-icon_6 {
+  background-image: url("../images/licenses-icon-6.png");
+}
+.licenses-icon_7 {
+  background-image: url("../images/licenses-icon-7.png");
+}
+.licenses-icon_8 {
+  background-image: url("../images/licenses-icon-8.png");
+}
+
+@media (max-width: 1024px) {
+  .licenses-list {
+    grid-template-columns: 1fr 1fr;
+  }
+  .licenses-list__title {
+    margin-bottom: rem(16px) !important;
+  }
+}
+@media (max-width: 740px) {
+  .licenses-list {
+    grid-template-columns: 1fr;
+  }
+  .licenses-list__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .licenses-list__title,
+  .licenses-list__text {
+    text-align: center;
+  }
+}

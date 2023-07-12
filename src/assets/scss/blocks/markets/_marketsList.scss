@@ -1,0 +1,112 @@
+.btn-start-trade-markets {
+  margin-right: rem(32px);
+}
+.markets-list__btns {
+  display: flex;
+  align-items: center;
+  margin-top: auto;
+}
+.markets-list__text {
+  margin-bottom: rem(32px);
+  line-height: rem(18px);
+  letter-spacing: -0.002em;
+  color: #333333;
+}
+.wrapper_list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.markets-list__item {
+  &:nth-child(odd) {
+    padding-top: rem(35px);
+    padding-bottom: rem(44px);
+    .markets-list__title,
+    .markets-list__text {
+      text-align: right;
+    }
+    .markets-list__btns {
+      flex-direction: row-reverse;
+    }
+    .btn-start-trade-markets {
+      margin-right: 0;
+    }
+    .btn-show-more {
+      margin-right: rem(32px);
+    }
+  }
+  &:nth-child(even) {
+    padding-top: rem(32px);
+    padding-bottom: rem(32px);
+    background: linear-gradient(0deg, rgba(229, 230, 239, 0.64), rgba(229, 230, 239, 0.64));
+    .wrapper_list-item {
+      flex-direction: row-reverse;
+    }
+    .markets-list__title {
+      color: $color-text;
+    }
+  }
+}
+.markets-list-text-wrapper {
+  max-width: rem(598px);
+  width: 100%;
+}
+.section-markets {
+  padding-top: rem(11px);
+}
+.markets-list__title {
+  font-size: rem(34px);
+  line-height: rem(34px);
+  letter-spacing: 0.001em;
+  font-weight: 700;
+  margin-bottom: rem(16px);
+}
+.markets-list-img {
+  flex-shrink: 0;
+  img {
+    max-width: rem(439px);
+  }
+}
+
+
+// ADAPTIVE
+@media screen and (max-width: 1024px) {
+  .wrapper_list-item {
+    flex-direction: column-reverse !important;
+  }
+  .section-markets {
+    padding-top: rem(11px) !important;
+  }
+  .markets-list-img img {
+    max-width: rem(300px);
+  }
+  .markets-list__title,
+  .markets-list__text {
+    text-align: center !important;
+  }
+  .markets-list__btns {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: rem(32px);
+    justify-content: center;
+  }
+  .btn-show-more {
+    margin-right: 0 !important;
+  }
+  .markets-list-img-wrapper {
+    margin-bottom: rem(32px);
+  }
+  .btn-start-trade-markets {
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 640px) {
+  .markets-list__btns {
+    display: flex;
+    flex-direction: column !important;
+    grid-gap: initial;
+  }
+  .btn-start-trade-markets {
+    margin-bottom: rem(24px);
+  }
+}

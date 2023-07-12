@@ -1,0 +1,376 @@
+id,constant,position,translate
+1. Главная страница,,,Schieberegler # 1
+1.1. Посадочная страница.,,,Schieberegler # 2
+1,indexHeaderText.slide1.title,Заголовок №1,0% Provision für Ein- und Auszahlungen
+2,indexHeaderText.slide1.text|dot,Подзаголовок к заголовку №1,"Wenn Sie Geld auf Ihr Konto bei Company Name einzahlen, beträgt die Provision immer 0%. Wir kümmern uns um alle Finanzierungskosten."
+3,indexHeaderText.slide2.title,Заголовок №2,Handeln Sie mit einem der führenden Broker der Welt
+4,indexHeaderText.slide2.text|dot,Подзаголовок к заголовку №2,Unsere Plattform wurde von über 200 000 Tradern aus der ganzen Welt gewählt
+5,indexHeaderText.slide3.title,Заголовок №3,Company Name ist Ihr lizenzierter Partner an den Finanzmärkten
+6,indexHeaderText.slide3.text|dot,Подзаголовок к заголовку №3,Unser Unternehmen nimmt die Lizenzierung und die rechtlichen Aspekte des Handels ernst.
+7,indexHeaderText.slide4.title,Заголовок №4,Gehen Sie über den traditionellen Handel hinaus
+8,indexHeaderText.slide4.text|dot,Подзаголовок к заголовку №4,Unsere Plattform bietet die fortschrittlichsten Handelslösungen
+1.2. Почему мы? (Преимущества),,,
+9,indexAdvantagesText.h2,Главный заголовок раздела,Warum Company Name?
+10,indexAdvantagesText.advantage1.title,Преимущество №1,Ausgezeichnete Handelsbedingungen
+11,indexAdvantagesText.advantage1.text|dot,Описание преимущества №1,"Zugang zu über 150 Handelsinstrumenten mit Spreads ab 0,1 Pip und den niedrigsten Kommissionen auf dem Markt"
+12,indexAdvantagesText.advantage2.title,Преимущество №2,Sofortige Ausführung
+13,indexAdvantagesText.advantage2.text|dot,Описание преимущества №2,"Unsere Handelsplattform führt die Orderausführung mit der Geschwindigkeit von 0,1 Sekunde durch. Eine der schnellsten Raten der Welt."
+14,indexAdvantagesText.advantage3.title,Преимущество №3,Alle Arten von Analysen
+15,indexAdvantagesText.advantage3.text|dot,Описание преимущества №3,"Handeln Sie auf den globalen Finanzmärkten, mit praktisch jeder Handelsstrategie."
+16,indexAdvantagesText.advantage4.title,Преимущество №4,Fortschrittliche Technologien
+17,indexAdvantagesText.advantage4.text|dot,Описание преимущества №4,"Unsere Handelsplattform ist mit innovativen Technologien und fortschrittlichen Funktionen ausgestattet, um den wachsenden Anforderungen unserer Kunden gerecht zu werden."
+18,indexAdvantagesText.advantage5.title,Преимущество №5,Sicherheitsgarantie
+19,indexAdvantagesText.advantage5.text|dot,Описание преимущества №5,Unser Unternehmen wird von den wichtigsten Aufsichtsbehörden der Welt reguliert.
+20,indexAdvantagesText.advantage6.title,Преимущество №6,24x7 Unterstützung
+21,indexAdvantagesText.advantage6.text|dot,Описание преимущества №6,"Unser mehrsprachiges Team von Fachleuten ist immer bereit, Ihnen zu helfen und die beste Unterstützung zu bieten."
+1.3. Дополнительные преимущества.,,,
+22,indexBenefitsText.h2,Главный заголовок раздела,Wertschöpfung
+23,indexBenefitsText.benefit1.title,Преимущество №1,Globale Reichweite
+24,indexBenefitsText.benefit1.text|dot,Описание преимущества №1,Heute handeln über 200.000 Trader aus über 70 Ländern auf der Plattform. Das macht uns zu einem der weltweit aktivsten Makler.
+25,indexBenefitsText.benefit2.title,Преимущество №2,Flexible Handelsbedingungen
+26,indexBenefitsText.benefit2.text|dot,Описание преимущества №2,"Wir lassen Sie das Konto wählen, das für Sie am besten geeignet ist und bieten Ihnen die niedrigsten Handelsgebühren."
+27,indexBenefitsText.benefit3.title,Преимущество №3,Blitzschnell und technologisch fortschrittlich
+28,indexBenefitsText.benefit3.text|dot,Описание преимущества №3,"Unsere Server befinden sich an den heißesten Standorten der Finanzwelt, was uns die blitzschnelle Ausführung von Trades ermöglicht"
+29,indexBenefitsText.benefit4.title,Преимущество №4,Einzigartige Handelsplattform
+30,indexBenefitsText.benefit4.text|dot,Описание преимущества №4,Unsere Handelsplattform wird von Profis für Profis entwickelt. Wir sind stolz auf unser Produkt und nutzen es selbst als Handelsplattform.
+1.4. Как начать.,,,
+31,indexStepsText.h2,Главный заголовок раздела,Drei Schritte zum Start des Handels
+32,indexStepsText.step1.title,Шаг №1,1. Anmelden
+33,indexStepsText.step1.text|dot,Описание Шага №1,Eine einfache Registrierung eröffnet den Zugang zum Terminal für den Handel mit mehr als 150 Trading-instruments.
+34,indexStepsText.step2.title,Шаг №2,2. Aufladen eines Kontos
+35,indexStepsText.step2.text|dot,Описание Шага №2,Wir bieten eine breite Palette von Einzahlungs- und Auszahlungsmöglichkeiten. Sofortige Ein- und Auszahlungen.
+36,indexStepsText.step3.title,Шаг №3,3. Handel
+37,indexStepsText.step3.text|dot,Описание Шага №3,Beginnen Sie mit dem Handel und sehen Sie Ihren echten Gewinn vom ersten Handel an.
+1.5. Информация об аккаунтах.,,,
+38,indexAccountsText.h2,Главный заголовок раздела,Konto-Informationen
+39,indexAccountsText.account1.title,Аккаунт №1,Basis-Konto
+40,indexAccountsText.account1.text|dot,Подзаголовок для аккаунта №1,Erhalten Sie noch heute Zugang zu einer Vielzahl von Trading-instruments.
+41,indexAccountsText.account2.title,Аккаунт №2,Erweitertes Konto
+42,indexAccountsText.account2.text|dot,Подзаголовок для аккаунта №2,"Erhalten Sie mehr Möglichkeiten, erfolgreich an den Finanzmärkten zu handeln."
+43,indexAccountsText.account3.title,Аккаунт №3,Professionelles Konto
+44,indexAccountsText.account3.text|dot,Подзаголовок для аккаунта №3,"Nutzen Sie die Funktionen des Terminals und die minimalen Spreads, um Ihre Gewinne zu maximieren."
+45,indexAccountsText.account_condition_1,Минимальный депозит:,Mindesteinzahlung
+46,indexAccountsText.account_condition_2,Кредитное плечо:,Hebel
+47,indexAccountsText.account_condition_3,Моментальное исполнение,Sofortige Ausführung
+48,indexAccountsText.account_condition_4,Торговля криптовалютами и металлами,Handel mit Kryptowährungen und Metallen
+49,indexAccountsText.account_condition_5,Возможность инвестиций в ПАММ-счета,PAMM-Konten investieren
+50,indexAccountsText.account_condition_6,Отсутствие свопа,Kein Tausch
+51,indexAccountsText.account_condition_7,Торговля ETF и индексами,ETF and index trading
+52,indexAccountsText.account_condition_8,Страхование депозитов,Einlagensicherung
+53,indexAccountsText.account_condition_9,Персональный менеджер,Persönlicher Manager
+54,indexAccountsText.account_condition_10,Открытие личного ПАММ-счета,Eröffnung eines persönlichen PAMM-Kontos
+53,indexAccountsText.account_condition_11,Защита депозитов,Einlagenschutz
+54,indexAccountsText.account_condition_12,Круглосуточная поддержка,24-Stunden-Support
+1.6. Новости,,,
+55,indexNewsText.h2,Главный заголовок раздела,Die neuesten Wirtschaftsnachrichten
+1.7. Футер,,,
+56,footerContent,Футер текст,"Company Name ist registriert in F30-F32 Eden Plaza, Eden Island, Mahe, Seychellen.
+Company Name ist zugelassen und unterliegt den Anforderungen der Cyprus Securities and Exchange Commission (Lizenz Nr.: 95/46).
+Company Name ist von der International Financial Services Commission (IFSC) zugelassen (14/363/TS/16).
+Company Name wird von der Financial Services Commission der Republik Mauritius reguliert, Lizenznummer für Investmenthändler: C642875963."
+2. Рынки и инструменты,,,
+2.2. Обзор рынков,,,
+2.2.1. Посадочный экран,,,
+57,marketsHeaderText.title,Заголовок,Erkunden Sie die Welt des Finanzhandels
+58,marketsHeaderText.text|dot,Подзаголовок,Schon heute können Sie Zugang zu den beliebtesten Trading-instruments erhalten und Ihren ersten Gewinn einstreichen.
+59,commonMarketsText.title_graph,Загловок торгового графика,Handelschart
+60,commonMarketsText.title_table,Заголовок таблицы инструментов,Tabelle der Instrumente
+61,commonMarketsText.footnote,Часы работы рынков,Marktzeiten
+2.2.2. Валюты,,,
+62,marketsListText.market1.title,Заголовок,Forex
+63,marketsListText.market1.text|dot,Подзаголовок,Handeln Sie Währungen auf dem globalen Finanzmarkt zu wettbewerbsfähigen Konditionen
+2.2.3. Металлы,,,
+64,marketsListText.market2.title,Заголовок,Metalle
+65,marketsListText.market2.text|dot,Подзаголовок,Gold und Silber sind hochliquide Vermögenswerte auf dem Finanzmarkt. Diese Edelmetalle werden von Tradern aktiv als Hauptinstrumente für den CFD-Handel genutzt.
+2.2.4. Акции,,,
+66,marketsListText.market3.title,Заголовок,Aktien
+67,marketsListText.market3.text|dot,Подзаголовок,"Der Handel mit CFDs auf Aktien ist sehr einfach! Der Vorteil dieses Handelsformats ist, dass es nicht notwendig ist, Aktien physisch zu kaufen und zu verkaufen. Schließlich werden Transaktionen für Preisunterschiede in beide Richtungen gehandelt."
+2.2.5. Товары,,,
+68,marketsListText.market4.title,Заголовок,Rohstoffe
+69,marketsListText.market4.text|dot,Подзаголовок,Investieren Sie in den CFD-Rohstoffhandel mit Company Name und erhalten Sie jetzt Zugang zu Dutzenden von Instrumenten.
+2.2.6. Индексы,,,
+70,marketsListText.market5.title,Заголовок,Indizes
+71,marketsListText.market5.text|dot,Подзаголовок,World Indices fasst Dutzende von Aktien großer Unternehmen zusammen und erweitert damit Ihre Möglichkeiten im CFD-Handel erheblich.
+2.2.7. Криптовалюты,,,
+72,marketsListText.market6.title,Заголовок,Kryptowährungen
+73,marketsListText.market6.text|dot,Подзаголовок,Handeln Sie die beliebtesten Kryptowährungen und machen Sie schon heute Gewinn
+2.3. Валюты,,,
+2.3.1. Посадочный экран,,,
+74,forexHeaderText.title,Заголовок,Versuchen Sie den Handel auf dem globalen Devisenmarkt
+75,forexHeaderText.text|dot,Подзаголовок,"Der dezentralisierte Devisenmarkt hat viele Vorteile für den Handel mit CFDs. Die Kurse der Währungspaare sind hochdynamisch und ermöglichen es Ihnen, jeden Tag Geld mit Long- und Short-Positionen zu verdienen."
+76,forexProfitsText.profit1.title,Преимущество №1. Заголовок.,Bedienelemente löschen
+77,forexProfitsText.profit1.text|dot,Преимущество №1. Описание.,"Unser Geschäft ist reguliert, was ein hohes Maß an Transparenz im Devisenhandel und anderen Vermögenswerten bietet."
+78,forexProfitsText.profit2.title,Преимущество №2. Заголовок.,Auswahl der Assets
+79,forexProfitsText.profit2.text|dot,Преимущество №2. Описание.,"Jeder Händler kann Operationen mit verschiedenen Währungspaaren durchführen, deren Betrag 40 Einheiten übersteigt."
+80,forexProfitsText.profit3.title,Преимущество №3. Заголовок.,Kundenbetreuung
+81,forexProfitsText.profit3.text|dot,Преимущество №3. Описание.,Jeder registrierte Händler kann Beratungshilfe in der gewählten Sprache erhalten.
+82,forexProfitsText.profit4.title,Преимущество №4. Заголовок.,Marktdynamik
+83,forexProfitsText.profit4.text|dot,Преимущество №4. Описание.,"Die Währungskurse ändern sich jede Sekunde, was sie sehr volatil und liquide macht."
+2.3.2. Описание рынка,,,
+84,forexAssetsText.title,Заголовок,Mehr Informationen zum Devisenmarkt
+85,forexAssetsText.text|dot,Подзаголовок,"Sie können CFDs auf Währungspaare 24 Stunden am Tag, 5 Tage die Woche, mit einem Hebel von bis zu 1:100 handeln. Für registrierte Trader stehen bei unserem Brokerage-Unternehmen verschiedene Trading-instruments zur Verfügung, die ihnen helfen, potenzielle Handelsmöglichkeiten und Markttrends zu erkennen. Alle instruments zur Analyse, Vorhersage und zum Handel mit Währungspaaren sind absolut kostenlos."
+2.4. Металлы,,,
+2.4.1. Посадочный экран,,,
+86,metalsHeaderText.title,Заголовок,Versuchen Sie den Handel an den globalen Metallmärkten
+87,metalsHeaderText.text|dot,Подзаголовок,"Schauen Sie sich Ihre Chancen auf dem Edelmetallmarkt, auf dem Gold und Silber gehandelt werden, genauer an."
+88,metalsProfitsText.profit1.title,Преимущество №1. Заголовок.,Genaue Spannen
+89,metalsProfitsText.profit1.text|dot,Преимущество №1. Описание.,Liquiditätsaggregatoren sorgen für stabile Preiszuführungen und transparente Spreads.
+90,metalsProfitsText.profit2.title,Преимущество №2. Заголовок.,10+ Werkzeuge
+91,metalsProfitsText.profit2.text|dot,Преимущество №2. Описание.,Kostenlose Analyse- und Prognoseinstruments im Handelsterminal verfügbar.
+92,metalsProfitsText.profit3.title,Преимущество №3. Заголовок.,Hebelwirkung von 1:20
+93,metalsProfitsText.profit3.text|dot,Преимущество №3. Описание.,"Jeder Händler kann das für ihn optimale Leverage-Level wählen, um die Risiken zu managen."
+94,metalsProfitsText.profit4.title,Преимущество №4. Заголовок.,0 versteckte Gebühren
+95,metalsProfitsText.profit4.text|dot,Преимущество №4. Описание.,Beeinträchtigen Sie Ihren Metallhandel nicht durch Provisionen und versteckte Gebühren.
+2.4.2. Описание рынка,,,
+96,metalsAssetsText.title,Заголовок,Erfahren Sie mehr über den Metallmarkt
+97,metalsAssetsText.text|dot,Подзаголовок,In wirtschaftlich instabilen Zeiten dienen Edelmetalle als hervorragende Anlage zur Risikodiversifizierung. Tausende von Investoren und Händlern aus aller Welt nutzen diesen Vorteil. Trotz Inflation der Währungen bleiben Gold und Silber wertvolle Ressourcen. Ihre Kosten sind stabil und vorhersehbar.
+2.5. Акции,,,
+2.5.1. Посадочный экран,,,
+98,stocksHeaderText.title,Заголовок,Versuchen Sie den Handel an der Weltbörse
+99,stocksHeaderText.text|dot,Подзаголовок,Durch vorteilhafte Handelsbedingungen können Sie mehr von den Kursschwankungen der größten Unternehmen der Welt profitieren.
+100,stocksProfitsText.profit1.title,Преимущество №1. Заголовок.,Einfacher Start
+101,stocksProfitsText.profit1.text|dot,Преимущество №1. Описание.,"Alles, was es braucht, ist ein Konto in ein paar Minuten zu registrieren, um Ihren ersten Aktienhandel zu machen."
+102,stocksProfitsText.profit2.title,Преимущество №2. Заголовок.,Präzise Liquidität
+103,stocksProfitsText.profit2.text|dot,Преимущество №2. Описание.,"Aggregatoren der Liquidität sind die größten Finanzzentren der Welt, was eine maximale Genauigkeit der Notierungen ermöglicht."
+104,stocksProfitsText.profit3.title,Преимущество №3. Заголовок.,Mobiler Handel
+105,stocksProfitsText.profit3.text|dot,Преимущество №3. Описание.,"Die mobile Version des Handelsterminals ermöglicht es Ihnen, überall und jederzeit von Ihrem Smartphone oder Tablet aus zu handeln."
+106,stocksProfitsText.profit4.title,Преимущество №4. Заголовок.,Beratung 24/7
+107,stocksProfitsText.profit4.text|dot,Преимущество №4. Описание.,"Wenn Sie Fragen haben, können Sie jederzeit eine Anfrage hinterlassen und sich ausführlich beraten lassen."
+2.5.2. Описание рынка,,,
+108,stocksAssetsText.title,Заголовок,Weitere Informationen zum Aktienmarkt
+109,stocksAssetsText.text|dot,Подзаголовок,"Sie können auch an Aktien von Unternehmen im CFD-Format verdienen. Sie benötigen kein großes Anfangskapital, und der Kauf- und Verkaufsprozess reduziert sich auf das Drücken einer Taste im Handelsterminal. In einem solchen Szenario ist es möglich, viele Wertpapiere von Unternehmen zu handeln."
+2.6. Товары,,,
+2.6.1. Посадочный экран,,,
+110,commoditiesHeaderText.title,Заголовок,Versuchen Sie den Handel auf dem globalen Rohstoffmarkt
+111,commoditiesHeaderText.text|dot,Подзаголовок,"Investieren Sie in zukunftsträchtige Energie und Rohstoffe und profitieren Sie von den Preisunterschieden bei diesen Finanzinstrumenten, auch mit einem kleinen Kapital."
+112,commoditiesProfitsText.profit1.title,Преимущество №1. Заголовок.,Beliebige Losgröße
+113,commoditiesProfitsText.profit1.text|dot,Преимущество №1. Описание.,Handeln Sie mit kleiner Einlage auch mit der kleinsten Losgröße.
+114,commoditiesProfitsText.profit2.title,Преимущество №2. Заголовок.,Ausführung im Handumdrehen
+115,commoditiesProfitsText.profit2.text|dot,Преимущество №2. Описание.,Zuverlässige Liquiditätsanbieter garantieren eine sofortige Ausführung ohne Requotes und Slippage.
+116,commoditiesProfitsText.profit3.title,Преимущество №3. Заголовок.,Keine Vertauschung
+117,commoditiesProfitsText.profit3.text|dot,Преимущество №3. Описание.,Es fallen keine Rollover-Gebühren beim Handel mit Rohstoffen an.
+118,commoditiesProfitsText.profit4.title,Преимущество №4. Заголовок.,Informativer Handel
+119,commoditiesProfitsText.profit4.text|dot,Преимущество №4. Описание.,Die Genauigkeit und Effizienz des Warenhandels wird durch ein funktionales Handelsterminal gewährleistet.
+2.6.2. Описание рынка,,,
+120,commoditiesAssetsText.title,Заголовок,Mehr Informationen zum Rohstoffmarkt
+121,commoditiesAssetsText.text|dot,Подзаголовок,"Die Energie- und Rohstoffmärkte können durch politische und wirtschaftliche Faktoren beeinflusst werden. Schnelle Reaktion und intelligente Analysen eines Händlers helfen, präzise und effektive Geschäfte zu machen. Diese Kategorie von Finanzinstrumenten umfasst liquide Mittel, einschließlich Öl und Gas."
+2.7. Индексы,,,
+2.7.1. Посадочный экран,,,
+122,indicesHeaderText.title,Заголовок,"Versuchen Sie, auf dem Weltmarkt für Indizes zu handeln"
+123,indicesHeaderText.text|dot,Подзаголовок,Der Handel mit CFDs auf Indizes kann unbegrenzte Gewinne einbringen. Diese sehr liquide und aussichtsreiche Kategorie von Finanzinstrumenten ist für Anfänger und erfahrene Trader geeignet.
+124,indicesProfitsText.profit1.title,Преимущество №1. Заголовок.,Beliebte Indizes
+125,indicesProfitsText.profit1.text|dot,Преимущество №1. Описание.,"Zugang zu den aussichtsreichsten und liquidesten Indizes aus den USA, Europa und Asien."
+126,indicesProfitsText.profit2.title,Преимущество №2. Заголовок.,"Provisionsprozentsatz ab 0,00%"
+127,indicesProfitsText.profit2.text|dot,Преимущество №2. Описание.,Profitieren Sie von absolut keinen Provisionen oder versteckten Gebühren beim Handel mit Aktienindizes.
+128,indicesProfitsText.profit3.title,Преимущество №3. Заголовок.,Jederzeit handeln
+129,indicesProfitsText.profit3.text|dot,Преимущество №3. Описание.,"Der aktive Markt für Indizes ermöglicht es Ihnen, an Wochentagen zu jeder Tageszeit zu handeln."
+130,indicesProfitsText.profit4.title,Преимущество №4. Заголовок.,Flüssige Diversifikation.
+131,indicesProfitsText.profit4.text|dot,Преимущество №4. Описание.,Tausende von Händlern und Investoren nutzen Indizes zur Diversifizierung ihrer Portfolios.
+2.7.2. Описание рынка,,,
+132,indicesAssetsText.title,Заголовок,Weitere Informationen zu Indizes
+133,indicesAssetsText.text|dot,Подзаголовок,"Der Handel mit Indizes auf dem Weltmarkt ermöglicht es Ihnen, in ganze Wirtschaftssektoren auf einmal zu investieren. Schließlich fasst jeder Index die Gesamtheit der Aktien von Unternehmen desselben Bereichs oder derselben Branche zusammen. Durch die Analyse und Verfolgung von Wirtschaftstrends ist es möglich, die Kursbewegungen von Indizes genauer zu prognostizieren."
+2.8. Криптовалюты,,,
+2.8.1. Посадочный экран,,,
+134,cryptoHeaderText.title,Заголовок,Versuchen Sie den Handel auf dem globalen Kryptowährungsmarkt
+135,cryptoHeaderText.text|dot,Подзаголовок,"Der Handel mit Cryptocurrencies ist viel einfacher als es scheint! Eröffnen Sie in wenigen Minuten ein Brokerage-Konto und beginnen Sie mit dem CFD-Handel mit liquiden Kryptowährungen, darunter Bitcoin, Ethereum, Litecoin und andere."
+136,cryptoProfitsText.profit1.title,Преимущество №1. Заголовок.,Hebelwirkung im Wettbewerb
+137,cryptoProfitsText.profit1.text|dot,Преимущество №1. Описание.,Mit dem einstellbaren Hebel von 1:20 können Sie Ihre Risiken und potenziellen Gewinne steuern.
+138,cryptoProfitsText.profit2.title,Преимущество №2. Заголовок.,Jede Strategie ist erlaubt
+139,cryptoProfitsText.profit2.text|dot,Преимущество №2. Описание.,"Es ist praktisch, wenn Sie eine beliebige Kryptowährungshandelsstrategie verwenden können."
+140,cryptoProfitsText.profit3.title,Преимущество №3. Заголовок.,Zuverlässige Plattform
+141,cryptoProfitsText.profit3.text|dot,Преимущество №3. Описание.,Der Handel mit Kryptowährungen ist durch das multifunktionale Handelsterminal sehr komfortabel.
+142,cryptoProfitsText.profit4.title,Преимущество №4. Заголовок.,Beste Dienstleister
+143,cryptoProfitsText.profit4.text|dot,Преимущество №4. Описание.,Dank zuverlässiger Liquiditätsaggregatoren werden alle Trades sehr schnell und präzise ausgeführt.
+2.8.2. Описание рынка,,,
+144,cryptoAssetsText.title,Заголовок,Mehr Informationen über den Kryptowährungsmarkt
+145,cryptoAssetsText.text|dot,Подзаголовок,"Kryptowährung ist ein dezentrales Zahlungsmittel, das keiner Regulierungsbehörde unterliegt. Die Ausgabe von digitalem Geld wie Bitcoin, Ethereum, Litecoin und anderen erfolgt durch Mining. Das heißt, die Mitglieder des Kryptowährungsnetzwerks generieren selbst neue Coins, die von Jahr zu Jahr immer schwieriger zu minen sind."
+3. Торговые условия,,,
+3.1. Посадочный экран,,,
+146,tradingHeaderText.title,Заголовок,Company Name Handelsinstrumente
+147,tradingHeaderText.text|dot,Подзаголовок,Über 150 Handelsinstrumente stehen Ihnen für den Handel auf allen modernen Finanzmärkten zur Verfügung. Handeln Sie mit verschiedenen Trading-instruments und ernten Sie die Früchte mit Ihrem Trusted Broker.
+3.2. Калькулятор трейдера,,,
+148,tradingCalculatorText.title,Заголовок,Berechnen Sie die Ergebnisse Ihrer Trades mit dem Trader's Calculator
+149,tradingCalculatorText.text|dot,Подзаголовок,"Das nützliche und funktionelle Trader-Tool ermöglicht es, in wenigen Sekunden den potenziellen Gewinn, den Spread und die Margin-Anforderungen einer Order herauszufinden."
+3.3. Расчетные данные,,,
+150,estimationText.offer_1,Инструмент,"Instrument: <div class=""description"">geben Sie das ausgewählte Finanzinstrument aus der Liste an</div>"
+151,estimationText.offer_2,Цена открытия,"Preis: <div class=""description"">geben Sie den geschätzten Preis für die Eröffnung und Schließung der Bestellung an, um das mögliche Ergebnis der Bestellung zu sehen</div>"
+152,estimationText.offer_3,Объем сделки,"Handelsvolumen: <div class=""description"">genaue Angabe des Handelsvolumens in Losen</div>"
+153,estimationText.offer_4,"Своп, в пунктах","Swap in punkten: <div class=""description"">wird automatisch auf der Grundlage der Differenz zwischen Ask- und Bid-Preisen berechnet</div>"
+154,estimationText.offer_5,"Своп, в USD","Swap in USD: <div class=""description"">automatisch berechnet auf der Grundlage der Kosten für den Positions-Rollover in der Nacht</div>"
+155,estimationText.offer_6,Маржа в USD,"Marge: <div class=""description"">die angegebenen Daten sind der Mindestbetrag der kostenlosen Einzahlung, der für die Durchführung einer Transaktion erforderlich ist</div>"
+156,estimationText.offer_7,Прибыль в USD,"Gewinn: <div class=""description"">angabe des wahrscheinlichen Gewinns auf der Grundlage der aktuellen Parameter</div>"
+3.4. Пример расчета,,,
+157,estimationText.h2,Заголовок,Wie der Rechner Werke des Händlers
+158,estimationText.ul_title|dot,Подзаголовок,Erste Daten:
+159,estimationText.li_1,Данные №1,Instrument
+160,estimationText.li_2,Данные №2,Dealvolumen
+161,estimationText.li_3,Данные №3,Auftragsart
+162,estimationText.li_4,Данные №4,Eröffnungskurs
+163,estimationText.li_5,Данные №5,Schließen Preis
+164,estimationText.li_6,Данные №6,Margin
+165,estimationText.li_7,Данные №7,Der Gewinn
+4. О компании,,,
+4.1. О компании + Показатели,,,
+166,aboutHeaderText.title,Слоган-заголовок,"Company Name - ein Broker, der sich um seine Kunden kümmert"
+167,aboutHeaderText.text|dot,Подзаголовок,"Seit seiner Gründung konzentriert sich Company Name darauf, die besten Handelsbedingungen zu bieten, indem es die innovative Technologie und die im Laufe der Jahre gesammelte Erfahrung nutzt."
+168,aboutCounterText.counter1.title,Показатель №1,<span class='indicator-number_1' data-indicator-number='380000'>0</span>
+169,aboutCounterText.counter1.text,Текст показателя №1,Offene Handelskonten
+170,aboutCounterText.counter2.title,Показатель №2,<span class='indicator-number_2' data-indicator-number='500000'>0</span>
+171,aboutCounterText.counter2.text,Текст показателя №2,Trades pro Tag
+172,aboutCounterText.counter3.title,Показатель №3,<span class='indicator-number_3' data-indicator-number='150'>0</span>+
+173,aboutCounterText.counter3.text,Текст показателя №3,Handelsinstrumente
+174,aboutCounterText.counter4.title,Показатель №4,<span class='indicator-number_4' data-indicator-number='70'>0</span> mio
+175,aboutCounterText.counter4.text,Текст показателя №4,Dollar tägliche Handelsvolumen
+176,aboutCounterText.counter5.title,Показатель №5,<span class='indicator-number_5' data-indicator-number='4'>0</span>
+177,aboutCounterText.counter5.text,Текст показателя №5,Jahr auf dem Markt
+4.2. Вы в центре всего,,,
+178,aboutConditionsText.title,Заголовок,"Wir verbessern uns jeden Tag, um Ihnen das beste Erlebnis zu bieten"
+179,aboutConditionsText.text|dot,Подзаголовок,"Wir investieren ständig unsere Bemühungen und Ressourcen in Technologie, um die Qualität unserer Dienstleistungen zu verbessern. Hinter dem Unternehmen stehen viele starke Finanzergebnisse und Indikatoren für ein stabiles Wachstum. Company Name hat es geschafft, sich den Ruf eines zuverlässigen Marktführers und Innovators zu erarbeiten."
+4.3. Цели и задачи компании,,,
+180,aboutGoalsText.h2,Общий заголовок,Unser Unternehmen hat bereits ein stetiges Wachstum gezeigt und wird sich für Sie weiter verbessern
+181,aboutGoalsText.goal1.title,Заголовок №1,Technische Führerschaft im Markt
+182,aboutGoalsText.goal1.text|dot,Описание заголовка №1,"Jeden Tag steigern wir die Qualität unserer Dienstleistungen und integrieren die neuesten technischen Lösungen. Unser Ziel ist es, das sicherste und technologisch fortschrittlichste Produkt auf dem Markt zu werden."
+183,aboutGoalsText.goal2.title,Заголовок №2,Maximaler Kundenkomfort
+184,aboutGoalsText.goal2.text|dot,Описание заголовка №2,"Wir verbessern den Kundensupport täglich. Unser Ziel ist es, die Kommunikation mit unseren Kunden so komfortabel und effizient wie möglich zu gestalten."
+4.4. Больше возможностей для трейдинга,,,
+185,aboutQualityText.title,Заголовок №1,Mehr Möglichkeiten für den Handel an den Finanzmärkten
+186,aboutQualityText.text,Описание заголовка №1,"Company Name ist ein vertrauenswürdiger Broker für Tausende von erfolgreichen Tradern weltweit.
+Tätigen Sie Transaktionen auf den renommiertesten Finanzmärkten und nutzen Sie die fortschrittlichen Funktionen unserer Handelsplattform.  "
+4.5. Наша история,,,
+187,aboutHistoryText.h2,Общий заголовок,Company Name Unternehmensgeschichte
+188,aboutHistoryText.year1.title,2017 год. Заголовок,Start des Weges
+189,aboutHistoryText.year1.text|dot,2017 год. Описание,"Jahr der Firmengründung. Erste Version der Plattform. Implementierung der Möglichkeit, auf dem Forex- und Aktienmarkt zu handeln. Erste Firmenauszeichnungen und Registrierung von 40 000 Konten."
+190,aboutHistoryText.year2.title,2018 год. Заголовок,Erste Ergebnisse.
+191,aboutHistoryText.year2.text|dot,2018 год. Описание,"Es wurden 150.000 Konten des Unternehmens registriert. Neue Arten von Verträgen sind für die Kunden des Unternehmens verfügbar geworden, wie CFDs auf Futures und ETFs und Indizes. Der Tagesumsatz lag bei über 1,5 Millionen."
+192,aboutHistoryText.year3.title,2019 год. Заголовок,Zugang zu internationalen Märkten
+193,aboutHistoryText.year3.text|dot,2019 год. Описание,"226.000 Konten registriert. Trader aus über 70 Ländern haben uns als Broker gewählt. Erreichte eine Rekordgeschwindigkeit von 0,1 Sekunde."
+194,aboutHistoryText.year4.title,2020 год. Заголовок,Beeindruckende Leistung und ehrgeizige Pläne
+195,aboutHistoryText.year4.text|dot,2020 год. Описание,"Mehr als 300 000 Konten registriert. Die Anzahl der täglichen Operationen überstieg 3 Millionen. Eine neue Version der Handelsplattform wird entwickelt. Unser Plan ist es, die neuen Höhen auf den Finanzmärkten zu erreichen."
+4.6. Платформа для торговли разработанная для людей.,,,
+196,aboutPlatformText.title,Заголовок,"Die Handelsplattform von Company Name steht für Sicherheit, Innovation und Komfort beim Handel"
+197,aboutPlatformText.text|dot,Подзаголовок,"Der beste Indikator für uns sind hunderttausende Trader, die unsere Plattform für den erfolgreichen Handel auf den Finanzmärkten gewählt haben."
+198,aboutPlatformText.advantage1,Преимущества №1,"Einfache, intuitive Oberfläche"
+199,aboutPlatformText.advantage2,Преимущества №2,Zitate in Echtzeit
+200,aboutPlatformText.advantage3,Преимущества №3,Sofortige Ausführung
+201,aboutPlatformText.advantage4,Преимущества №4,Schutz vor negativem Saldo
+202,aboutPlatformText.advantage5,Преимущества №5,Reibungsloser Handel
+203,aboutPlatformText.advantage6,Преимущества №6,Detaillierte Kontohistorie
+204,aboutPlatformText.advantage7,Преимущества №7,Erweiterte analytische Werkzeuge
+5. Аккредитации и лицензии.,,,
+5.1. Посадочный экран,,,
+205,licensesHeaderText.title,Заголовок,Partner und Lizenzen
+206,licensesHeaderText.text,Подзаголовок к заголовку,"Die Tätigkeit der Maklerfirma wird von mehreren unabhängigen Organisationen und Kommissionen streng reguliert. Und Transaktionen werden mit den Quotierungen der führenden Liquiditätsaggregatoren ausgeführt. Um mehr über die Partner zu erfahren, die für Transparenz und Sicherheit der Transaktionen sorgen, besuchen Sie bitte diese Seite."
+5.2. Информация о регуляторах и банках,,,
+207,licensesListText.license1.title,Заголовок №1,MiFID
+208,licensesListText.license1.text,Описание №1,"MiFID ist eine unabhängige europäische Richtlinie, die die Finanzmarktteilnehmer in Europa und anderen Regionen reguliert."
+209,licensesListText.license2.title,Заголовок №2,Bank of America
+210,licensesListText.license2.text,Описание №2,"Das amerikanische Finanzkonglomerat, das als Liquiditätsaggregator und Finanzzentrum für die Abwicklung des Zahlungsverkehrs globaler Marktteilnehmer fungiert."
+211,licensesListText.license3.title,Заголовок №3,JPMorgan Chase & Co
+212,licensesListText.license3.text,Описание №3,"Eine internationale Bank, die als einheitliches Finanzzentrum für die Abwicklung von Zahlungen und die Regulierung von Transaktionen auf den globalen Märkten fungiert."
+213,licensesListText.license4.title,Заголовок №4,CySEC
+214,licensesListText.license4.text,Описание №4,"Zyperns unabhängige Regulierungsbehörde, die die Erfüllung der Verpflichtungen der Maklerfirmen überwacht, die eine Lizenz von dieser Kommission erhalten haben."
+215,licensesListText.license5.title,Заголовок №5,IFSC
+216,licensesListText.license5.text,Описание №5,"Die nationale Finanzaufsichtsbehörde von Belize hatte das Ziel, die Aktivitäten von Makler- und Investmentgesellschaften auf dem Territorium von Belize zu kontrollieren."
+217,licensesListText.license6.title,Заголовок №6,ASIC
+218,licensesListText.license6.text,Описание №6,"Australische Finanzaufsichtsbehörde, die die Regulierung und Überwachung von Finanzunternehmen innerhalb und außerhalb des Landes sicherstellt."
+219,licensesListText.license7.title,Заголовок №7,FSA
+220,licensesListText.license7.text,Описание №7,Nichtstaatliche Finanzaufsichtsbehörde von St. Vincent und den Grenadinen.
+221,licensesListText.license8.title,Заголовок №8,HSBC-Beteiligungen
+222,licensesListText.license8.text,Описание №8,"Eines der größten Finanzzentren der Welt, das mit vielen der weltweit tätigen Investment- und Maklerunternehmen zusammenarbeitet."
+6. Ошибка 404.,,,
+223,headerText404.title,Заголовок,Fehler 404
+224,headerText404.text,Подзаголовок,Bitte versuchen Sie es erneut oder kontaktieren Sie Unterstützung.
+225,headerText404.textMainPage,Вернуться на главную страницу,Zurück zur Hauptseite
+226,headerText404.textSupport,Служба технической поддержки,Technischer Kundendienst
+8. Формы,,,
+8.1. Заголовки форм,,,
+228,formsText.titleEnter,Вход в личный кабинет,Ihr Personal Area
+229,formsText.titleCallback,Оставить заявку,Reichen Sie Ihre Bewerbung ein
+230,formsText.titleTwoauth,Двухэтапная авторизация,Zwei-Faktor-Authentifizierung
+231,buttonText.signup,Регистрация,Anmeldung
+232,fotmsText.titleReminder,Восстановление пароля,Passwort zurücksetzen
+8.2. Поля ввода,,,
+233,formsText.labelName,Введите ваше имя,Name *
+234,formsText.placeholderName,Введите ваше имя (placeholder),Dein Namen
+235,formsText.labelLastName,Введите вашу фамилию,Nachname *
+236,formsText.placeholderLastName,Введите вашу фамилию (placeholder),Dein Namen
+237,formsText.labelMail,Введите ваш E-mail,E-mail *
+238,formsText.placeholderEmail,Введите ваш E-mail (placeholder),Dein E-Mail
+239,formsText.labelPassword,Введите пароль,Passwort *
+240,formsText.placeholderPassword,Введите пароль (placeholder),Passwort eingeben
+241,formsText.labelConfirmPassword,Подтвердите пароль,Passwort bestätigen *
+242,formsText.labelPhone,Поле для ввода номера телефона,Telefonnummer *
+243,formsText.placeholderPhone,Поле для ввода номера телефона (placeholder),Dein Telefonnummer
+244,formsText.labelCountry,Выберите страну,Land *
+245,formsText.placeholderCountry,Выберите страну (placeholder),Wählen Sie das Land
+246,formsText.labelLanguage,Выберите язык,Sprache wählen
+247,formsText.placeholderLanguage,Выберите язык (placeholder),Sprache wählen
+248,formsText.labelTime,Удобное время для звонка,Bequeme Zeit
+249,formsText.placeholderTime,Удобное время для звонка (placeholder),Beste Zeit zum Anrufen
+250,formsText.lableTwoauth,Введите код двухэтапной авторизации,2SV-Code *
+251,formsText.placeholderTwoauth,Введите код двухэтапной авторизации (placeholder),Geben 2SV-Code
+252,formsText.labelPromo,Введите промокод,Gutscheincode
+253,formsText.placeholderPromo,Введите промокод (placeholder),Geben Gutscheincode
+8.3. Дополнительный текст,,,
+254,formsText.text_required,* - обязательные поля,* - Benötigte Felder
+255,formsText.regRecommend,"Для пароля разрешены только латинские буквы, цифры и символы. ","Für das Passwort sind nur lateinische Buchstaben, Zahlen und Symbole zulässig. Das Passwort muss mindestens einen Großbuchstaben, einen Kleinbuchstaben und eine Zahl enthalten."
+256,formsText.checkboxText,Обработка персональных данных (чекбокс),Ich stimme der Verarbeitung personenbezogener Daten
+8.4. Уведомления,,,
+257,formsText.titleSuccess,Спасибо за отправку сообщения,Vielen Dank für das Senden einer Nachricht
+258,formsText.textSuccess,Спасибо за отправку сообщения текст,Wir werden Sie in Kürze kontaktieren
+259,formsText.titleError,Ошибка отправки сообщения,Fehler beim Senden der Nachricht
+260,formsText.textError,Ошибка отправки сообщения текст,Versuche es später
+8.5. Ссылки в форме,,,
+261,formsText.forgotText,Забыли пароль?,Haben Sie Ihr Passwort vergessen?
+262,formsText.allreadyText,Уже есть учетная запись,Sie haben bereits ein Konto
+9. Навигация,,,
+263,navText.index,Главная,Main
+264,navText.markets,Рынки,Märkte
+265,navText.about,О компании,Über das Unternehmen
+266,navText.contacts,Контакты,Impressum
+267,navText.forex,Валюты,Währung
+268,navText.metals,Металлы,Metalle
+269,navText.stocks,Акции,Bestände
+270,navText.commodities,Товары,Commodities
+271,navText.indices,Индексы,Indizes
+272,navText.crypto,Криптовалюты,Kryptowährung
+273,navText.trading,Торговые условия,Handelsbedingungen
+274,navText.licenses,Аккредитация и лицензии,Akkreditierungen und Lizenzen
+275,formsText.checkboxAgreement,Пользовательское соглашение,Nutzungsbedingungen
+276,formsText.checkboxPolicy,Политика возврата средств,Rückgaberecht
+293,curLang,Текущий язык,De
+10. Кнопки,,,
+277,buttonText.login,Войти,Einloggen
+278,buttonText.btnReg,Зарегистрироваться,Anmelden
+279,buttonText.enterFormButton,Войти в кабинет,Login Konto
+280,buttonText.btnSend,Отправить,Senden
+281,buttonText.btnStartTrade,Начать торговать,Beginnen Händel
+282,buttonText.btnOpenAcc,Открыть счет,Ein Konto eröffnen
+283,buttonText.btnCallback,Запросить звонок,Fordern Sie einen Anruf
+284,buttonText.btnLearMore,Узнать больше,Lernen Mehr
+285,buttonText.btn404,Вернуться на главную,Zurück zur Startseite
+286,buttonText.btnSupport,Техническая поддержка,Technischer Support
+287,buttonText.btnPartner,Стать партнером,Ein Partner werden
+11. Контакты,,,
+288,contactsHeaderText.title,Заголовок,"24/7, personalisierte Benutzerunterstützung"
+289,contactsHeaderText.text,Подзаголовок,Lassen Sie sich an und wir werden Sie umgehend kontaktieren.
+290,contactsListText.contact2,Наша почта,Unsere E-Mail
+291,contactsListText.contact3,Месторасположение,Ort
+292,contactsListText.contact1,Международный номер,Internationale Nummer
+12. Тайтлы,,,
+293,titles.index,index,Company Name - Erhalten Sie finanzielle Unabhängigkeit
+294,titles.notFound,404,404 - Company Name - Erhalten Sie finanzielle Unabhängigkeit
+295,titles.licenses,licenses,Akkreditierung und Lizenzen - Company Name - Erhalten Sie finanzielle Unabhängigkeit
+296,titles.reminder,reminder,Passwort Wiederherstellung - Company Name - Erhalten Sie finanzielle Unabhängigkeit
+297,titles.register,register,Check-In - Company Name - Erhalten Sie finanzielle Unabhängigkeit
+298,titles.login,login,Eingang - Company Name - Erhalten Sie finanzielle Unabhängigkeit
+299,titles.about,about,Über das Unternehmen - Company Name – verdienen Sie einfach!
+300,titles.contacts,contacts,Kontakte - Company Name - Persönliche Benutzerunterstützung rund um die Uhr
+301,titles.markets,markets,Über 200 Finanzinstrumente für den Handel von überall auf der Welt
+302,titles.commodities,commodities,Produkte - Handel mit Rohstoffen mit Company Name
+303,titles.crypto,crypto,Kryptowährungen - Handeln Sie zusammen mit Company Name
+304,titles.forex,forex,Währungen – der nachhaltigste und vielversprechendste Markt für Investitionen
+305,titles.indices,indices,Indizes - Werden Sie ein Profi im Handel mit CFDs auf Indizes
+306,titles.metals,metals,Metalle - Profitabler Handel mit CFD-Kontrakten für Metalle
+307,titles.stocks,stocks,Bestände - Aktienkurse Online mit Company Name
+308,titles.trading,trading,Handelsbedingungen - Company Name Handelskonten

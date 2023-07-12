@@ -1,0 +1,32 @@
+extends ../../pug/base/base
+
+append vars
+	- lang = "de"
+	- currentPage = 'about-company'
+	- baseDir = lang == "en" ? baseDir : "../"
+	// - baseDir = "../"
+	- title = titles.about[lang]
+	- link.appleTouchIcon180x180 = baseDir + "favicon/apple-touch-icon.png"
+	- link.icon16x16 = baseDir + "favicon/favicon-16x16.png"
+	- link.icon32x32 = baseDir + "favicon/favicon-32x32.png"
+	- link.manifest = baseDir + "favicon/site.webmanifest"
+	- meta.msapplicationTileColor = "#ffffff"
+	- meta.themeColor = "#ffffff"
+
+//- prepend styles (если нужно добавить ссылку на стили до базовой)
+append styles
+	link(rel="stylesheet" href=`${baseDir}assets/css/about.min.css`)
+
+block header
+	include ../../pug/blocks/about/aboutHeader.pug
+
+block content
+	include ../../pug/blocks/about/aboutCounter.pug
+	include ../../pug/blocks/about/aboutConditions.pug
+	include ../../pug/blocks/about/aboutGoals.pug
+	include ../../pug/blocks/about/aboutQuality.pug
+	include ../../pug/blocks/about/aboutHistory.pug
+	include ../../pug/blocks/about/aboutPlatform.pug
+
+//- prepend scripts (если нужно добавить ссылку на стили до базовой)
+append scripts

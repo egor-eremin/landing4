@@ -1,0 +1,18 @@
+header.page-header
+	.header-decor-wrapper.wrapper
+		.big-header-decor.left
+		.big-header-decor.right
+		.small-header-decor.left
+		.small-header-decor.right
+	include ../nav.pug
+	.wrapper.wrapper-header.wrapper-header__other-page
+		.img-background-header.desctop
+			picture
+				source(srcset=baseDir + "assets/images/licenses-bg_1x.webp 1x, " + baseDir + "assets/images/licenses-bg_2x.webp 2x" type="image/webp")
+				img(src=baseDir + "assets/images/licenses-bg_1x.png" srcset=baseDir + "assets/images/licenses-bg_1x.png 1x, " + baseDir + "assets/images/licenses-bg_2x.png 2x" alt="licenses")
+		.img-background-header.mobile
+			img(src=baseDir + "assets/images/licenses-bg-mobile.jpg" alt="licenses")
+		.text-header-wrapper
+			h1.page-header__title.h1-title !{licensesHeaderText.title[lang]}
+			p.page-header__text !{licensesHeaderText.text[lang]}
+			a(href=linkSignup).btn.btn-start-trade !{buttonText.btnStartTrade[lang]}

@@ -1,0 +1,27 @@
+section.section.section-markets
+	.markets-list
+			-for(let i = 1; i < 7; i++)
+				.markets-list__item(class=["markets-list__item-"+i] data-aos="fade-up" data-aos-delay="300")
+					.wrapper.wrapper_list-item
+						.markets-list-text-wrapper
+							h3.markets-list__title.h3-title !{marketsListText["market"+i].title[lang]}
+							p.markets-list__text !{marketsListText["market"+i].text[lang]}
+							.markets-list__btns
+								a(href=linkSignup).btn-rectangle.btn.btn-start-trade-markets !{buttonText.btnStartTrade[lang]}
+								if i == 1
+									a(href="currencies.html").btn-show-more !{buttonText.btnLearMore[lang]}
+								else if i == 2
+									a(href="metals.html").btn-show-more !{buttonText.btnLearMore[lang]}
+								else if i == 3
+									a(href="stocks.html").btn-show-more !{buttonText.btnLearMore[lang]}
+								else if i == 4
+									a(href="commodities.html").btn-show-more !{buttonText.btnLearMore[lang]}
+								else if i == 5
+									a(href="indices.html").btn-show-more !{buttonText.btnLearMore[lang]}
+								else if i == 6
+									a(href="cryptocurrencies.html").btn-show-more !{buttonText.btnLearMore[lang]}
+						.markets-list-img-wrapper
+							.markets-list-img
+								picture
+									source(srcset=baseDir + "assets/images/markets-list-img-" + i +"_1x.webp 1x, " + baseDir + "assets/images/markets-list-img-" + i + "_2x.webp 2x" type="image/webp")
+									img(src=baseDir + "assets/images/markets-list-img-" + i + "_1x.png" srcset=baseDir + "assets/images/markets-list-img-" + i + "_1x.png 1x, " + baseDir + "assets/images/markets-list-img-" + i + "_2x.png 2x" alt="markets")

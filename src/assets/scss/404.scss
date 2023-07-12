@@ -1,0 +1,103 @@
+@import "../../../node_modules/normalize.css/normalize";
+@import "../../../node_modules/magnific-popup/src/css/main";
+@import "partials/fonts";
+@import "partials/functions";
+@import "partials/variables";
+
+
+@import "blocks/common";
+@import "blocks/nav";
+@import "blocks/header";
+@import "blocks/footer";
+
+
+.wrapper-404 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: rem(135px);
+}
+.header-404 {
+  padding-top: rem(215px);
+}
+.images-404 {
+  margin-top: rem(15px);
+  margin-bottom: rem(48px);
+  img {
+    max-width: rem(568px);
+    width: 100%;
+  }
+}
+.page-header__text-404 {
+  text-align: center;
+  margin-bottom: rem(24px);
+  color: $color-title;
+}
+.btn-servises {
+  background: transparent;
+  border: rem(2px) solid $color-button;
+  &:hover {
+    border-color: $color-button-hover;
+    background: $color-button-hover;
+  }
+}
+.page-header__title_404 {
+  margin-bottom: rem(32px);
+}
+.header-information-wrapper_404 {
+  background: url("../images/404-bg.jpg") no-repeat;
+  background-size: cover;
+  width: rem(360px);
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: rem(555px);
+}
+.error-404 {
+  font-size: rem(128px);
+  line-height: rem(150px);
+  font-weight: 500;
+  color: $color-white;
+}
+.text-header-wrapper_404 {
+  padding-right: rem(96px);
+  padding-left: rem(96px);
+  align-items: center;
+}
+.header-404__buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.btn-404 {
+  padding-left: rem(60px);
+  padding-right: rem(60px);
+  margin-bottom: rem(40px);
+}
+.btn-go-page-main {
+  font-size: rem(18px);
+  line-height: rem(21px);
+  color: $color-white;
+  text-decoration: underline;
+  &:hover {
+    color: $color-button;
+  }
+}
+
+@media (max-width: 1024px) {
+  .header-information-wrapper_404 {
+    display: none;
+  }
+  .text-header-wrapper_404 {
+    padding-bottom: 0 !important;
+  }
+}
+@media (max-width: 800px) {
+  .images-404 {
+    img {
+      max-width: 100%;
+    }
+  }
+}

@@ -1,0 +1,24 @@
+if accounts_type == "cold"
+	include ../../mixins/accountsMixinCold.pug
+else
+	include ../../mixins/accountsMixinHot.pug
+
+
+section.section.section-accounts
+	.wrapper.wrapper_accounts
+		.gif-decor.gif-decor_accounts
+			img.gif-decor-img(src=baseDir + "assets/images/gif-decor.gif" alt="gif decor")
+		h2.h2-title.h2-title__accounts !{indexAccountsText.h2[lang]}
+		.accounts-slider-wrapper
+			.accounts-list.js-accounts-list-slider
+				+account(1)
+				+account(2)
+				+account(3)
+			.accounts-arrows-wrapper
+				.slider-number.js-slider-number
+					.slider-number__item 01
+					.slider-number__item 02
+					.slider-number__item 03
+			.accounts-decor
+				.accounts-decor__item1
+				.accounts-decor__item2

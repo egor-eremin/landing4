@@ -1,0 +1,14 @@
+section.section.section-goals
+	-let delayValueGoals = 150;
+		.wrapper.wrapper_goals.wrapper-big
+			.decor-big.left
+			.decor-big.right
+			.goals-wrapper
+				h2.h2-title.h2-title_goals !{aboutGoalsText.h2[lang]}
+				.goals-list
+					-for(let i = 1; i < 3; i++)
+						.goals-list__item(data-aos="fade-up" data-aos-delay="" + delayValueGoals)
+							.goals-icon(class="goals-icon_" + i)
+							h3.goals-list__title.h3-title !{aboutGoalsText["goal"+i].title[lang]}
+							p.goals-list__text !{aboutGoalsText["goal"+i].text[lang]}
+						-delayValueGoals += 150

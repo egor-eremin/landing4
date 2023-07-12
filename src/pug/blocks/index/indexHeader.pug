@@ -1,0 +1,33 @@
+header.main-header.page-header
+	.header-decor-wrapper.wrapper
+		.big-header-decor.left
+		.big-header-decor.right
+		.small-header-decor.left
+		.small-header-decor.right
+	include ../nav.pug
+	.wrapper.wrapper-slider.wrapper-header
+		.js-main-slider.main-slider-text
+			-for(let i = 1; i < 5; i++)
+				.main-slider__item(class=["main-slider__item"+i])
+					if i == 1
+						.img-background-header.img-background-header_gif.desctop
+							img.img-mask(src=baseDir + "assets/images/mask-to-gif-main.png" alt="img mask")
+							img.img-mask-blue(src=baseDir + "assets/images/mask-to-gif-main-1.svg" alt="img blue mask")
+							img.img-gif(src=baseDir + "assets/images/main-slider-" + i + ".gif" alt="main slide")
+						.img-background-header.mobile
+							img(src=baseDir + "assets/images/main-slider-mobile-" + i + ".jpg" alt="main slide")
+					else
+						.img-background-header.desctop
+							picture
+								source(srcset=baseDir + "assets/images/main-slider-" + i + "_1x.webp 1x, " + baseDir + "assets/images/main-slider-" + i + "_2x.webp 2x" type="image/webp")
+								img(src=baseDir + "assets/images/main-slider-" + i + "_1x.png" srcset=baseDir + "assets/images/main-slider-" + i + "_1x.png 1x, " + baseDir + "assets/images/main-slider-" + i + "_2x.png 2x" alt="main slide")
+						.img-background-header.mobile
+							img(src=baseDir + "assets/images/main-slider-mobile-" + i + ".jpg" alt="main slide")
+					.main-slider__wrapper
+						if i == 1
+							h1.main-slider__title.h1-title !{indexHeaderText["slide"+i].title[lang]}
+						else
+							.main-slider__title.h1-title !{indexHeaderText["slide"+i].title[lang]}
+						p.main-slider__text.page-header__text !{indexHeaderText["slide"+i].text[lang]}
+						a(href=linkSignup).btn.btn-start-trade !{buttonText.btnStartTrade[lang]}
+	.main-arrows-wrapper.dots-wrapper.wrapper

@@ -1,0 +1,9 @@
+.popup.popup-twoauthstep.mfp-hide#twoauthstep-popup
+	h3.h2-title.white.h3-title_twoauthstep !{formsText.titleTwoauth[lang]}
+	form#twoauthstep-form.main-form.main-form_twoauthstep(method="post")
+		.form-item
+			label.input-wrapper
+				span.label-form !{formsText.lableTwoauth[lang]}
+				input.form-input#auth-code(type="text" required name="code" placeholder= formsText.placeholderTwoauth[lang])
+		button.js--send-authcode.btn-rectangle.btn.btn-twoauth(type="submit") !{buttonText.btnSend[lang]}
+		.help-text.center.help-text_twoauthstep !{formsText.text_required[lang]}

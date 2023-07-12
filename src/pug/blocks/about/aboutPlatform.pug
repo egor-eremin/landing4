@@ -1,0 +1,14 @@
+section.section.section-platform
+	.wrapper.wrapper_platform
+		.platform-text-wrapper
+			h2.h2-title.h2-title_platform !{aboutPlatformText.title[lang]}
+			p.prev-text-platform !{aboutPlatformText.text[lang]}
+		.platform-img-wrapper
+			picture
+				source(srcset=baseDir + "assets/images/platform_1x.webp 1x, " + baseDir + "assets/images/platform_2x.webp 2x" type="image/webp")
+				img(src=baseDir + "assets/images/platform_1x.png" srcset=baseDir + "assets/images/platform_1x.png 1x, " + baseDir + "assets/images/platform_2x.png 2x" alt="platform")
+		.platform-list-wrapper
+			ul.platform-list
+				-for (let i = 1; i < 8; i++)
+						li.platform-list__item.accounts-conditions-item(data-aos="fade-up" data-aos-delay="300") !{aboutPlatformText["advantage"+i][lang]}
+			a(href=linkSignup).btn !{buttonText.btnOpenAcc[lang]}

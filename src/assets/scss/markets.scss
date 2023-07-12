@@ -1,0 +1,15 @@
+@import "../../../node_modules/normalize.css/normalize";
+@import "partials/fonts";
+@import "partials/functions";
+@import "partials/variables";
+@import "partials/aos";
+
+@import "blocks/common";
+@import "blocks/nav";
+@import "blocks/footer";
+@import "blocks/markets/marketsHeader";
+@import "blocks/markets/marketsList";
+@import "blocks/markets/marketAssets";
+@import "blocks/markets/marketProfits";
+@import "blocks/markets/marketQuotes";
+

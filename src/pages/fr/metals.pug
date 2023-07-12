@@ -1,0 +1,32 @@
+extends ../../pug/base/base
+include ../../pug/mixins/marketGraphMixin
+include ../../pug/mixins/marketTableMixin
+
+append vars
+	- lang = "fr"
+	- currentPage = 'metals'
+	- baseDir = lang == "en" ? baseDir : "../"
+	// - baseDir = "../"
+	- title = titles.metals[lang]
+	- link.appleTouchIcon180x180 = baseDir + "favicon/apple-touch-icon.png"
+	- link.icon16x16 = baseDir + "favicon/favicon-16x16.png"
+	- link.icon32x32 = baseDir + "favicon/favicon-32x32.png"
+	- link.manifest = baseDir + "favicon/site.webmanifest"
+	- meta.msapplicationTileColor = "#ffffff"
+	- meta.themeColor = "#ffffff"
+
+//- prepend styles (если нужно добавить ссылку на стили до базовой)
+append styles
+	link(rel="stylesheet" href=`${baseDir}assets/css/markets.min.css`)
+
+block header
+	include ../../pug/blocks/metals/metalsHeader.pug
+
+block content
+	include ../../pug/blocks/metals/metalsProfits.pug
+	include ../../pug/blocks/metals/metalsAssets.pug
+	+marketTable("metals")
+	+marketGraph("metals")
+//- append scripts (если нужно добавить ссылку на скрипты после базовой)
+prepend scripts
+	<script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>

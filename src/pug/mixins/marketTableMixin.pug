@@ -1,0 +1,12 @@
+mixin marketTable(attr)
+    section.section.section-table
+        .wrapper.wrapper-big.wrapper_for-table
+            .decor-big.left
+            .decor-big.right
+            .decor-small.left
+            .wrapper-table
+                h2.h2-title.light-color.h2-title_table !{commonMarketsText.title_table[lang]}
+                .table-wrapper-for-border
+                    .table-wrapper
+                        .tableinsert(attr=attr)
+                    .footnote.footnote_table !{commonMarketsText.footnote[lang]}

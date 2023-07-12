@@ -1,0 +1,31 @@
+extends ../../pug/base/base
+
+append vars
+	- lang = "zh"
+	- currentPage = 'index'
+	- baseDir = lang == "en" ? baseDir : "../"
+	// - baseDir =  "../"
+	- title = titles.index[lang]
+	- link.appleTouchIcon180x180 = baseDir + "favicon/apple-touch-icon.png"
+	- link.icon16x16 = baseDir + "favicon/favicon-16x16.png"
+	- link.icon32x32 = baseDir + "favicon/favicon-32x32.png"
+	- link.manifest = baseDir + "favicon/site.webmanifest"
+	- meta.msapplicationTileColor = "#ffffff"
+	- meta.themeColor = "#ffffff"
+
+//- prepend styles (если нужно добавить ссылку на стили до базовой)
+append styles
+	link(rel="stylesheet" href=`${baseDir}assets/css/index.min.css`)
+
+block header
+	include ../../pug/blocks/index/indexHeader.pug
+
+block content
+	include ../../pug/blocks/index/indexAdvantages.pug
+	include ../../pug/blocks/index/indexNews.pug
+	include ../../pug/blocks/index/indexSteps.pug
+	include ../../pug/blocks/index/indexBenefits.pug
+	include ../../pug/blocks/index/indexAccounts.pug
+
+//- prepend scripts (если нужно добавить ссылку на скрипты до базовой)
+append scripts

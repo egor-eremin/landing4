@@ -1,0 +1,6 @@
+mixin marketGraph(attr)
+    section.section.section-graph
+        .wrapper
+            h2.section-graph__title.h2-title !{commonMarketsText.title_graph[lang]}
+            .graph-wrapper
+                .graph#tradeview(data-item=attr height="650")

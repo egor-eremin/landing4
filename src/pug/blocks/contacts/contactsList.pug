@@ -1,0 +1,9 @@
+section.section.section-contacts
+	.wrapper
+		.contacts-list
+				.contacts-list__item
+					p.contacts-list__title.contacts-list__title_phone !{companyData.phone}
+				.contacts-list__item
+					p.contacts-list__title.contacts-list__title_email: a(href=`mailto:${companyData.email}`) !{companyData.email}
+				.contacts-list__item
+					p.contacts-list__title.contacts-list__title_adres !{companyData.adres}

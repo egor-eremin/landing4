@@ -1,0 +1,18 @@
+header.page-header.about-header.page-header_other-page
+	.header-decor-wrapper.wrapper
+		.big-header-decor.left
+		.big-header-decor.right
+		.small-header-decor.left
+		.small-header-decor.right
+	include ../nav.pug
+	.wrapper.wrapper-header.wrapper-header__other-page
+		.img-background-header.desctop
+			picture
+				source(srcset=baseDir + "assets/images/about-bg_1x.webp 1x, " + baseDir + "assets/images/about-bg_2x.webp 2x" type="image/webp")
+				img(src=baseDir + "assets/images/about-bg_1x.png" srcset=baseDir + "assets/images/about-bg_1x.png 1x, " + baseDir + "assets/images/about-bg_2x.png 2x" alt="about")
+		.img-background-header.mobile
+			img(src=baseDir + "assets/images/about-bg-mobile.jpg" alt="about")
+		.text-header-wrapper
+			h1.page-header__title.h1-title !{aboutHeaderText.title[lang]}
+			p.page-header__text !{aboutHeaderText.text[lang]}
+			a(href=linkSignup).btn.btn-start-trade !{buttonText.btnStartTrade[lang]}

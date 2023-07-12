@@ -1,0 +1,18 @@
+header.page-header.page-header_only-header
+	.header-decor-wrapper.wrapper
+		.big-header-decor.left
+		.big-header-decor.right
+		.small-header-decor.left
+		.small-header-decor.right
+	include ../nav.pug
+	.wrapper.wrapper-header.wrapper-header_revers.wrapper-header__other-page
+		.header-information-wrapper.header-information-wrapper_contacts
+			.contacts-list
+				.contacts-list__item
+					p.contacts-list__title.contacts-list__title_email: a(href=`mailto:${companyData.email}`) !{companyData.email}
+				.contacts-list__item
+					p.contacts-list__title.contacts-list__title_address !{companyData.adres}
+		.text-header-wrapper.text-header-wrapper_contacts
+			h1.page-header__title.page-header__title-contacts.h1-title !{contactsHeaderText.title[lang]}
+			p.page-header__text.page-header__text-contacts !{contactsHeaderText.text[lang]}
+			button.callback-open-js.btn.btn-callback.btn-start-trade !{buttonText.btnCallback[lang]}

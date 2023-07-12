@@ -1,0 +1,9 @@
+section.section.section-counter
+	-let delayValueCounter = 150;
+		.wrapper.wrapper-big
+			.counter-list
+				-for(let i = 1; i < 6; i++)
+					.counter-list__item
+						h3.counter-list__title.h3-title !{aboutCounterText["counter"+i].title[lang]}
+						p.counter-list__text !{aboutCounterText["counter"+i].text[lang]}
+					-delayValueCounter +=150
